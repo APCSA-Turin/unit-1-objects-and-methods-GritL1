@@ -1,17 +1,18 @@
-package U1L8;
+package U1T8;
 
 public class Letter {
-    // instance variables
-    /* none yet */
+    private String var;
 
-    // constructor; since there are no instance variables to initialize,
-    // this constructor has no parameters and has an empty body: { }
-    public Letter() { }
+    
+    public Letter(String name) { 
+        var = name;
+    }
     
     public void writeLetter(String name){
         greeting(name);
         specialMessage();
         closing();
+        System.out.println("From, " + var + "!");
     }
 
     public void greeting(String name) {
