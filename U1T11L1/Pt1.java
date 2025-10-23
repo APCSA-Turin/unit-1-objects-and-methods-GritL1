@@ -24,5 +24,7 @@ public class Pt1{
         } else {
             System.out.println(two + " is found in " + one + " at index " + one.indexOf(two));
         }
+
+
     }
 }
